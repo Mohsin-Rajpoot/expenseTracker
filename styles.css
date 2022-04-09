@@ -1,0 +1,63 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #F7F7F7;
+    display: flex;
+    justify-content: center;
+
+}
+.wraper{
+
+    padding: 20px;
+}
+h1{
+    text-align: center;
+}
+.result{
+ 
+    display: flex;
+    justify-content: center;
+
+}
+.result h4{
+    border: 1px solid grey;
+    box-shadow: 2px 2px 2px 2px grey;
+    background-color: #FFFFFF;
+    padding: 20px;
+}
+ 
+li{
+    list-style-type: none;
+}
+form input{
+padding: 10px 50px;
+margin:10px ;
+}
+.form button{
+    width: 100%;
+    padding:8px;
+    background-color: purple;
+    color: white;
+}
+.result .income{
+    color: green;
+}
+.result .expense{
+    color: red;
+}
+
+.history .list{
+    background-color: #FFFFFF;
+    padding: 5px;
+}
+.history .list span:last-child{
+    float: right;
+}
+
+.history .list button{
+   margin-right: 4px;
+   background-color: red;
+   color: white;
+   /* visibility: hidden; */
+}
+
